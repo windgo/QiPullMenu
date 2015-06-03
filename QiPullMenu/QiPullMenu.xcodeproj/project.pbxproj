@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74CC51901B1E9F6200A40925 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC518F1B1E9F6200A40925 /* main.m */; };
+		74CC51931B1E9F6200A40925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC51921B1E9F6200A40925 /* AppDelegate.m */; };
+		74CC51961B1E9F6200A40925 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC51951B1E9F6200A40925 /* ViewController.m */; };
+		74CC51991B1E9F6200A40925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CC51971B1E9F6200A40925 /* Main.storyboard */; };
+		74CC519B1B1E9F6200A40925 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CC519A1B1E9F6200A40925 /* Images.xcassets */; };
+		74CC519E1B1E9F6200A40925 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CC519C1B1E9F6200A40925 /* LaunchScreen.xib */; };
+		74CC51AA1B1E9F6200A40925 /* QiPullMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC51A91B1E9F6200A40925 /* QiPullMenuTests.m */; };
+		74CC51B51B1EA0E600A40925 /* QiPullMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC51B41B1EA0E600A40925 /* QiPullMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74CC51A41B1E9F6200A40925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CC51821B1E9F6200A40925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74CC51891B1E9F6200A40925;
+			remoteInfo = QiPullMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74CC518A1B1E9F6200A40925 /* QiPullMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiPullMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CC518E1B1E9F6200A40925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CC518F1B1E9F6200A40925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74CC51911B1E9F6200A40925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74CC51921B1E9F6200A40925 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74CC51941B1E9F6200A40925 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74CC51951B1E9F6200A40925 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74CC51981B1E9F6200A40925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74CC519A1B1E9F6200A40925 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74CC519D1B1E9F6200A40925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		74CC51A31B1E9F6200A40925 /* QiPullMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiPullMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CC51A81B1E9F6200A40925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CC51A91B1E9F6200A40925 /* QiPullMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiPullMenuTests.m; sourceTree = "<group>"; };
+		74CC51B31B1EA0E500A40925 /* QiPullMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QiPullMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		74CC51B41B1EA0E600A40925 /* QiPullMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiPullMenu.swift; sourceTree = "<group>"; };
+		74CC51B61B1EA14200A40925 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74CC51871B1E9F6200A40925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC51A01B1E9F6200A40925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74CC51811B1E9F6200A40925 = {
+			isa = PBXGroup;
+			children = (
+				74CC51B61B1EA14200A40925 /* MyPlayground.playground */,
+				74CC518C1B1E9F6200A40925 /* QiPullMenu */,
+				74CC51A61B1E9F6200A40925 /* QiPullMenuTests */,
+				74CC518B1B1E9F6200A40925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74CC518B1B1E9F6200A40925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CC518A1B1E9F6200A40925 /* QiPullMenu.app */,
+				74CC51A31B1E9F6200A40925 /* QiPullMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74CC518C1B1E9F6200A40925 /* QiPullMenu */ = {
+			isa = PBXGroup;
+			children = (
+				74CC51911B1E9F6200A40925 /* AppDelegate.h */,
+				74CC51921B1E9F6200A40925 /* AppDelegate.m */,
+				74CC51941B1E9F6200A40925 /* ViewController.h */,
+				74CC51951B1E9F6200A40925 /* ViewController.m */,
+				74CC51971B1E9F6200A40925 /* Main.storyboard */,
+				74CC519A1B1E9F6200A40925 /* Images.xcassets */,
+				74CC519C1B1E9F6200A40925 /* LaunchScreen.xib */,
+				74CC518D1B1E9F6200A40925 /* Supporting Files */,
+				74CC51B41B1EA0E600A40925 /* QiPullMenu.swift */,
+				74CC51B31B1EA0E500A40925 /* QiPullMenu-Bridging-Header.h */,
+			);
+			path = QiPullMenu;
+			sourceTree = "<group>";
+		};
+		74CC518D1B1E9F6200A40925 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74CC518E1B1E9F6200A40925 /* Info.plist */,
+				74CC518F1B1E9F6200A40925 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74CC51A61B1E9F6200A40925 /* QiPullMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				74CC51A91B1E9F6200A40925 /* QiPullMenuTests.m */,
+				74CC51A71B1E9F6200A40925 /* Supporting Files */,
+			);
+			path = QiPullMenuTests;
+			sourceTree = "<group>";
+		};
+		74CC51A71B1E9F6200A40925 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74CC51A81B1E9F6200A40925 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74CC51891B1E9F6200A40925 /* QiPullMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CC51AD1B1E9F6200A40925 /* Build configuration list for PBXNativeTarget "QiPullMenu" */;
+			buildPhases = (
+				74CC51861B1E9F6200A40925 /* Sources */,
+				74CC51871B1E9F6200A40925 /* Frameworks */,
+				74CC51881B1E9F6200A40925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiPullMenu;
+			productName = QiPullMenu;
+			productReference = 74CC518A1B1E9F6200A40925 /* QiPullMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74CC51A21B1E9F6200A40925 /* QiPullMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CC51B01B1E9F6200A40925 /* Build configuration list for PBXNativeTarget "QiPullMenuTests" */;
+			buildPhases = (
+				74CC519F1B1E9F6200A40925 /* Sources */,
+				74CC51A01B1E9F6200A40925 /* Frameworks */,
+				74CC51A11B1E9F6200A40925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74CC51A51B1E9F6200A40925 /* PBXTargetDependency */,
+			);
+			name = QiPullMenuTests;
+			productName = QiPullMenuTests;
+			productReference = 74CC51A31B1E9F6200A40925 /* QiPullMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74CC51821B1E9F6200A40925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = im.qihf;
+				TargetAttributes = {
+					74CC51891B1E9F6200A40925 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					74CC51A21B1E9F6200A40925 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 74CC51891B1E9F6200A40925;
+					};
+				};
+			};
+			buildConfigurationList = 74CC51851B1E9F6200A40925 /* Build configuration list for PBXProject "QiPullMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74CC51811B1E9F6200A40925;
+			productRefGroup = 74CC518B1B1E9F6200A40925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74CC51891B1E9F6200A40925 /* QiPullMenu */,
+				74CC51A21B1E9F6200A40925 /* QiPullMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74CC51881B1E9F6200A40925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC51991B1E9F6200A40925 /* Main.storyboard in Resources */,
+				74CC519E1B1E9F6200A40925 /* LaunchScreen.xib in Resources */,
+				74CC519B1B1E9F6200A40925 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC51A11B1E9F6200A40925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74CC51861B1E9F6200A40925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC51961B1E9F6200A40925 /* ViewController.m in Sources */,
+				74CC51931B1E9F6200A40925 /* AppDelegate.m in Sources */,
+				74CC51901B1E9F6200A40925 /* main.m in Sources */,
+				74CC51B51B1EA0E600A40925 /* QiPullMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC519F1B1E9F6200A40925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC51AA1B1E9F6200A40925 /* QiPullMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74CC51A51B1E9F6200A40925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74CC51891B1E9F6200A40925 /* QiPullMenu */;
+			targetProxy = 74CC51A41B1E9F6200A40925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74CC51971B1E9F6200A40925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC51981B1E9F6200A40925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74CC519C1B1E9F6200A40925 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC519D1B1E9F6200A40925 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74CC51AB1B1E9F6200A40925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74CC51AC1B1E9F6200A40925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74CC51AE1B1E9F6200A40925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QiPullMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QiPullMenu/QiPullMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74CC51AF1B1E9F6200A40925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QiPullMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QiPullMenu/QiPullMenu-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		74CC51B11B1E9F6200A40925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QiPullMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiPullMenu.app/QiPullMenu";
+			};
+			name = Debug;
+		};
+		74CC51B21B1E9F6200A40925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QiPullMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiPullMenu.app/QiPullMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74CC51851B1E9F6200A40925 /* Build configuration list for PBXProject "QiPullMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC51AB1B1E9F6200A40925 /* Debug */,
+				74CC51AC1B1E9F6200A40925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CC51AD1B1E9F6200A40925 /* Build configuration list for PBXNativeTarget "QiPullMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC51AE1B1E9F6200A40925 /* Debug */,
+				74CC51AF1B1E9F6200A40925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74CC51B01B1E9F6200A40925 /* Build configuration list for PBXNativeTarget "QiPullMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC51B11B1E9F6200A40925 /* Debug */,
+				74CC51B21B1E9F6200A40925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74CC51821B1E9F6200A40925 /* Project object */;
+}
