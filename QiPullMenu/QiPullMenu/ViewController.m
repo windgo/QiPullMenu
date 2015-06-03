@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "QiPullMenu-Swift.h"
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property(nonatomic,strong)QiPullMenu* pullMenu;
 @end
 
 @implementation ViewController
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    _pullMenu=[[QiPullMenu alloc]initWithScrollView:_scrollView];
 }
 
 - (void)didReceiveMemoryWarning {

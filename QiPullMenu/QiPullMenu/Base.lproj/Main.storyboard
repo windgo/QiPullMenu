@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,41 +13,41 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GQt-J1-dWz">
-                                <rect key="frame" x="-20" y="0.0" width="625" height="600"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQt-J1-dWz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="button1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tnp-oW-cYQ">
-                                        <rect key="frame" x="125" y="289" width="375" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="375" id="nCv-cA-3pO"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="button1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tnp-oW-cYQ">
+                                        <rect key="frame" x="-15" y="289" width="375" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Tnp-oW-cYQ" firstAttribute="centerX" secondItem="GQt-J1-dWz" secondAttribute="centerX" id="SCm-x2-70k"/>
-                                    <constraint firstAttribute="trailing" secondItem="Tnp-oW-cYQ" secondAttribute="trailing" constant="125" id="c8h-dw-pIu"/>
-                                    <constraint firstItem="Tnp-oW-cYQ" firstAttribute="top" secondItem="GQt-J1-dWz" secondAttribute="top" constant="289" id="eIp-0x-FRw"/>
-                                    <constraint firstAttribute="bottom" secondItem="Tnp-oW-cYQ" secondAttribute="bottom" constant="290" id="mUr-9J-jKs"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="GQt-J1-dWz" secondAttribute="trailing" constant="-21" id="CwN-hg-XrL"/>
-                            <constraint firstItem="GQt-J1-dWz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-36" id="UKj-lA-uRB"/>
-                            <constraint firstItem="GQt-J1-dWz" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="aZ8-Zq-wa5"/>
-                            <constraint firstItem="GQt-J1-dWz" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="cBu-hc-7Ri"/>
+                            <constraint firstAttribute="trailing" secondItem="GQt-J1-dWz" secondAttribute="trailing" id="Afn-dr-QfU"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="GQt-J1-dWz" secondAttribute="bottom" id="DHv-ET-Agc"/>
+                            <constraint firstItem="GQt-J1-dWz" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="FuK-rr-BI6"/>
+                            <constraint firstItem="GQt-J1-dWz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="TXt-Yr-lV5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="GQt-J1-dWz" id="FfA-3N-6aa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="132.80000000000001" y="275.48000000000002"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
