@@ -170,6 +170,7 @@
 		74CC51821B1E9F6200A40925 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = im.qihf;
 				TargetAttributes = {
@@ -429,6 +430,7 @@
 				74CC51AF1B1E9F6200A40925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74CC51B01B1E9F6200A40925 /* Build configuration list for PBXNativeTarget "QiPullMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +439,7 @@
 				74CC51B21B1E9F6200A40925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

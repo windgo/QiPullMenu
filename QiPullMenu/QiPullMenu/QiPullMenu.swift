@@ -36,10 +36,6 @@ class QiPullMenu:NSObject,UIScrollViewDelegate,UIGestureRecognizerDelegate {
         let item4=UIBarButtonItem(title: "hah4", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
 
         bar.items=[item1,item2,item3,item4]
-        
-        var coverViewRect=CGRect
-        roundCoverView
-        
         scrollView.superview!.addSubview(bar)
         let gestureRecognizer=UIPanGestureRecognizer(target: self, action: "onSwip:")
         gestureRecognizer.delegate=self
@@ -75,12 +71,13 @@ class QiPullMenu:NSObject,UIScrollViewDelegate,UIGestureRecognizerDelegate {
         
         switch recgonizer.state{
         case UIGestureRecognizerState.Began:
-            beginX=recgonizer.locationInView(scrollView.superview)
+//            beginX=recgonizer.locationInView(scrollView.superview)
+            break
         case UIGestureRecognizerState.Changed:
-            println("changed")
+            print("changed")
             
         case UIGestureRecognizerState.Ended:
-            println("Ended")
+            print("Ended")
             
         default:
             return
