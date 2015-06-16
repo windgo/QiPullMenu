@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5005F43D-8158-465E-AF8B-9DE657DB8029</string>
 	<key>IDESourceControlProjectName</key>
-	<string>QiPullMenu</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3AA78B9BF01761956253E89879E6A3E33ABE26FC</key>
 		<string>https://github.com/windgo/QiPullMenu.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>QiPullMenu/QiPullMenu.xcodeproj</string>
+	<string>QiPullMenu/QiPullMenu.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3AA78B9BF01761956253E89879E6A3E33ABE26FC</key>
